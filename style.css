@@ -1,0 +1,103 @@
+body {
+  background: rgb(129, 16, 73);
+  margin: 0;
+  padding: 0;
+}
+header {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+#container {
+  display: grid;
+  height: 100vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 25px;
+}
+.cards {
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+.c1 {
+  color: white;
+}
+.b1 {
+  color: black;
+}
+#c1 {
+  text-align: center;
+  background: black;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+#c1:hover {
+  background:white;
+ color: black;
+}
+#c2 {
+  background:black;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+.b2 {
+  color: black;
+}
+#c2:hover {
+  background:white;
+ color: black;
+}
+.b3 {
+  color:black;
+}
+#c3 {
+  background:black;
+  transition: all 1.3s ease;
+  cursor: pointer;
+}
+#c3:hover {
+  background:white;
+ color: black;
+}
+.b4 {
+  color: black;
+}
+#c4 {
+  background: black;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+#c4:hover {
+  background:white;
+ color: black;
+}
+#c5 {
+  background: black;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+.b5 {
+  color: black;
+}
+#c5:hover {
+  background:white;
+ color: black;
+}
+.b6 {
+  color: black;
+}
+#c6 {
+  background: black;
+  transition: all 2s ease;
+  cursor: pointer;
+  
+}
+#c6:hover {
+  background:white;
+ color: black;
+}
